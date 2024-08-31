@@ -1,0 +1,9 @@
+
+
+Hello..
+I have done the above requests
+1. Merge develop into feature branch
+2. Merge feature branch into newly created branches
+3. Revert the changes as you requested for MR:... And since includes is not removed for vsg_gg_create_ex5, vsg_gg_update_ex5, this MR's jenkins is currently having errors
+4. Create a new MR based on the feature branch to remove all "includes" at:..
+I searched with the key "\func", "\proc", "@.." as the image below, but besides the 2 procedures vsg_gg_create_ex5, vsg_gg_update_ex5 in oracle/update/zu_4_6_011.sql file, there are no other includes (I searched for this in the develop code). Because this new MR is based off of the feature branch, I removed the 2 includes vsg_gg_create, vsg_gg_update in the zu_4_6_011 file. The feature branch has changed vsg_gg_create_ex5 => vsg_gg_create, vsg_gg_update_ex5 => vsg_gg_update. I find this quite strange. I also thought about creating this MR base on MR of VIS-17022-1 branch, but I am quite not sure. Please let me know what you think.
