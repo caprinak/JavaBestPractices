@@ -1,11 +1,7 @@
 package Annotations;
 
 // Marker annotation type declaration
-
-import java.lang.annotation.ElementType;
-import java.lang.annotation.Retention;
-import java.lang.annotation.RetentionPolicy;
-import java.lang.annotation.Target;
+import java.lang.annotation.*;
 /**
  * Indicates that the annotated method is a test method.
  * Use only on parameterless static methods.

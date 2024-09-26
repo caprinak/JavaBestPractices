@@ -9,9 +9,6 @@ import static java.util.stream.Collectors.toList;
 public class Card {
     private Suit suit;
     private Rank rank;
-
-   /* In summary, some tasks are best accomplished with streams, and others with
-    iteration. Many tasks are best accomplished by combining the two approaches.*/
     public Card(Suit suit, Rank rank) {
         this.suit = suit;
         this.rank = rank;
